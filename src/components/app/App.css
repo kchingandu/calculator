@@ -1,0 +1,93 @@
+.App {
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	padding: 1.4rem;
+	font-size: 1.4rem;
+	background: rgb(249,220,212);
+	background: linear-gradient(35deg, rgba(249,220,212,1) 0%, rgba(233,194,214,1) 48%, rgba(206,172,208,1) 100%);
+}
+
+hr {
+	opacity: 0;
+}
+
+button {
+	width: 5rem;
+	border: none;
+	height: 5rem;
+	outline: none;
+	color: #442939;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.4rem;
+	margin: 1rem .5rem;
+	border-radius: 2.5rem;
+	filter: drop-shadow(0px 0px 3px #dabdf1);
+	transition: color 650ms, background 650ms;
+	background: linear-gradient(0deg, rgba(242,210,222,1) 0%, rgba(255,233,234,1) 62%, rgba(255,252,248,1) 100%);
+}
+
+button:hover,
+button:focus {
+	color: white;
+	background: #442939;
+	transition: color 650ms, background 650ms;
+}
+
+#root {
+	margin: auto;
+}
+
+#clear {
+	height: 3rem;
+	width: 23rem;
+}
+
+#info{
+	display: block;
+	font-size: 1.2rem;
+	margin: 10rem 0 0 0;
+}
+
+#display {
+	width: 100%;
+	color: white;
+	height: 4rem;
+	border: none;
+	outline: none;
+	margin: 2rem 0;
+	padding: 0 1rem;
+	font-size: 1.6rem;
+	text-align: end;
+	user-select: none;
+	background: #442939;
+	border-radius: 1rem;
+	letter-spacing: .2rem;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 0px 3px #dabdf1);
+}
+
+#calculator {
+	width: 24rem;
+	padding: 2rem;
+	margin: 0 auto;
+	user-select: none;
+	border-radius: 2rem;
+	background: rgb(242,210,222);
+	filter: drop-shadow(0px 0px 8px #b29ac4);
+	background: linear-gradient(0deg, rgba(242,210,222,1) 0%, rgba(255,233,234,1) 62%, rgba(255,252,248,1) 100%);
+}
